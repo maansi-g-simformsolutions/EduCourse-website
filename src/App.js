@@ -1,24 +1,16 @@
-import "./styles.css";
+import React from 'react';
+import './styles.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import Home from './components/Home';
-import "bootstrap/dist/css/bootstrap.min.css";
-import "react-toastify/dist/ReactToastify.css";
-import { Button } from "reactstrap";
-import {ToastContainer, toast} from 'react-toastify';
-import Course from "./components/Course";
-import AllCourses from './components/AllCourses';
 
-export default function App() {
-  const btnHandle = () => {
-    toast.success("This is my first message",{
-      position: "bottom-right"
-    });
-  };
-  
-  return (
-    <div className="App">
-      <ToastContainer />
+const App =() => {
+  return(
+    <div>
       <Home />
-      <AllCourses />
     </div>
-  );
+  )
 }
+
+export default App;
