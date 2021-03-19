@@ -1,0 +1,21 @@
+.html-css-img {
+  height: 19rem;
+  width: 20rem;
+}
+
+.html-css {
+  width: 25%;
+}
+
+.card-bg {
+  background: #ecf0f1;
+}
+
+.card-bg:hover {
+  background: #ffb61e;
+}
+
+.btn {
+  background: black;
+  border: none;
+}

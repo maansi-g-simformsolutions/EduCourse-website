@@ -1,0 +1,11 @@
+.cards {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header{
+  background: #FFB61E;
+}

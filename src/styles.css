@@ -2,3 +2,7 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+Jumbotron .text-center{
+  background: #FFB61E !important
+}
