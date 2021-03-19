@@ -1,6 +1,6 @@
 import React from "react";
 import { Jumbotron, Button } from "reactstrap";
-import '../styles.css';
+import './Header.css';
 
 const Header = () => {
   return (
