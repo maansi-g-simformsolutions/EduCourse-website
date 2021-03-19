@@ -25,9 +25,9 @@ const AllCoursesData = [
   },
   {
     imgsrc: 'https://chriscourses.com/img/blog/redux/redux.jpg',
-    course: 'HTML-CSS Course',
+    course: 'Redux Course',
     subtitle: 'Beginner level',
-    cardContent: 'This is a beginner course about HTML-CSS'
+    cardContent: 'This is a beginner course about Redux'
   },
   {
     imgsrc: 'https://itterritory.net/wp-content/uploads/2019/09/power-of-python.jpg',

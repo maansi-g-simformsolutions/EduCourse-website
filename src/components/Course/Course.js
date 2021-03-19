@@ -1,4 +1,6 @@
 import React from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './Course.css';
 import {
   Card, CardImg, CardText, CardBody,
@@ -6,6 +8,19 @@ import {
 } from 'reactstrap';
 
 const Course = (props) => {
+
+  const addhandle = () =>{
+    toast.success('Successfully course added',
+      {
+        position: "bottom-right"}
+    )};
+
+    const deletehandle = () =>{
+      toast.error('Course deleted',
+        {
+          position: "bottom-center"}
+      )};
+  
   return(
     <div>
       
@@ -16,8 +31,9 @@ const Course = (props) => {
           <CardTitle tag="h4">{props.course}</CardTitle>
           <CardSubtitle tag="h6" className="mb-2 text-muted">{props.subtitle}</CardSubtitle>
           <CardText>{props.cardContent}</CardText>
-          <Button className='btn mr-3'>Add Course</Button>
-          <Button className='btn'>Delete</Button>
+          <ToastContainer />
+          <Button className='btn mr-3' onClick={addhandle}>Add Course</Button>
+          <Button className='btn' onClick={deletehandle}>Delete</Button>
         </CardBody>
       </Card>
       </CardGroup>
