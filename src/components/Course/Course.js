@@ -33,7 +33,7 @@ const Course = (props) => {
           <CardText>{props.cardContent}</CardText>
           <ToastContainer />
           <Button className='btn mr-3' onClick={addhandle}>Add Course</Button>
-          <Button className='btn' onClick={deletehandle}>Delete</Button>
+          <Button color='danger' className='btn' onClick={deletehandle}>Delete</Button>
         </CardBody>
       </Card>
       </CardGroup>
