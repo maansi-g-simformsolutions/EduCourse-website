@@ -11,7 +11,7 @@ const Header = () => {
           This is Maansi here and you are on a journey to discover my
           walkthroughs along the various courses I learnt ...
         </p>
-        <Button color="primary" className='btn'>Learn More</Button>
+        <Button className='learnmore-btn'>Learn More</Button>
       </Jumbotron>
     </div>
   );

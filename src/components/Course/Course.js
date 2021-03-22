@@ -25,15 +25,15 @@ const Course = (props) => {
     <div>
       
       <CardGroup>
-      <Card className='text-left html-css m-4' >
-        <CardImg className='html-css-img m-auto' src={props.imgsrc} alt="Card image cap" />
-        <CardBody className='card-bg'>
+      <Card className='text-left course-card m-4' >
+        <CardImg className='course-card-img m-auto' src={props.imgsrc} alt="Card image cap" />
+        <CardBody className='card-body'>
           <CardTitle tag="h4">{props.course}</CardTitle>
           <CardSubtitle tag="h6" className="mb-2 text-muted">{props.subtitle}</CardSubtitle>
           <CardText>{props.cardContent}</CardText>
           <ToastContainer />
-          <Button className='btn mr-3' onClick={addhandle}>Add Course</Button>
-          <Button color='danger' className='btn' onClick={deletehandle}>Delete</Button>
+          <Button className='add-btn mr-3' onClick={addhandle}>Add Course</Button>
+          <Button className='delete-btn' onClick={deletehandle}>Delete</Button>
         </CardBody>
       </Card>
       </CardGroup>

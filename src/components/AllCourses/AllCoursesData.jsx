@@ -18,10 +18,10 @@ const AllCoursesData = [
     cardContent: 'This is a beginner course about Typescript'
   },
   {
-    imgsrc: 'http://blog.addthiscdn.com/wp-content/uploads/2014/11/addthis-react-flux-javascript-scaling.png',
-    course: 'React Course',
+    imgsrc: 'https://blog.codedthemes.com/wp-content/uploads/2020/03/b-5.png',
+    course: 'Bootstrap Course',
     subtitle: 'Beginner level',
-    cardContent: 'This is a beginner course about React'
+    cardContent: 'This is a beginner course about Bootstrap'
   },
   {
     imgsrc: 'https://chriscourses.com/img/blog/redux/redux.jpg',
@@ -42,10 +42,10 @@ const AllCoursesData = [
     cardContent: 'This is a beginner course about Django'
   },
   {
-    imgsrc: 'https://blog.codedthemes.com/wp-content/uploads/2020/03/b-5.png',
-    course: 'Bootstrap Course',
+    imgsrc: 'http://blog.addthiscdn.com/wp-content/uploads/2014/11/addthis-react-flux-javascript-scaling.png',
+    course: 'React Course',
     subtitle: 'Beginner level',
-    cardContent: 'This is a beginner course about Bootstrap'
+    cardContent: 'This is a beginner course about React'
   },
   {
     imgsrc: 'https://cdn-media-1.freecodecamp.org/images/1*FDNeKIUeUnf0XdqHmi7nsw.png',

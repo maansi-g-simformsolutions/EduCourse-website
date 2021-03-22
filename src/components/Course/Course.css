@@ -1,13 +1,13 @@
-.html-css-img {
+.course-card-img {
   height: 17rem;
   width: 20rem;
 }
 
-.html-css {
+.course-card {
   width: 25%;
 }
 
-.card-bg {
+.card-body {
   background: #ecf0f1;
 }
 
@@ -15,7 +15,12 @@
   background: #ffb61e;
 }
 
-.btn {
+.add-btn {
+  background: #ffb61e;
+  border: none;
+}
+
+.delete-btn {
   background: black;
   border: none;
 }
